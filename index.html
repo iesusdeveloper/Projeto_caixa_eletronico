@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM</title>
+    <link rel="stylesheet" href="sttilo.css">
+</head>
+<body>
+    
+    <header>
+        <h1 class="h1">Sistema de Saque Caixa Eletrônico</h1>
+
+    </header>
+    <div class="hr">
+        <hr>
+    </div>
+
+<section>
+    <h2>
+        Saque Notas Diferentes e menor volume possível
+    </h2>
+    <div class="notasdis">
+        <h3>
+            Notas Disponíveis
+        </h3>
+        <h4>
+           2 5 10 20 50 100 200
+        </h4>
+    </div>
+    <input id="inputsaque" type="number" placeholder="Valor do Saque">
+    <button onclick="calcularSaque()">Sacar</button>
+
+    <div id="resultado">
+    
+
+    </div>
+</section>
+
+
+</body>
+
+<script src="saque.js"></script>
+</html>
